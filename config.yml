@@ -1,0 +1,13 @@
+# Maximum NPCs this plugin will create in one mass_spawn command.
+max-mass-spawn: 10
+# Radius around the command sender where mass_spawn places NPCs.
+spawn-radius: 4.0
+# Default skins used by mass_spawn. Replace with Minecraft usernames you like.
+default-skins:
+  - Notch
+  - jeb_
+  - Dinnerbone
+  - Technoblade
+  - Dream
+  - Steve
+  - Alex

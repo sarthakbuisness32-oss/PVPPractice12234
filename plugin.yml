@@ -1,0 +1,16 @@
+name: PvPPractice
+version: 0.2.0
+main: com.interio.pvppractice.PvPPracticePlugin
+api-version: '1.21'
+softdepend: [FancyNpcs]
+author: Interio
+description: Player-style practice NPC management for Paper 1.21.11.
+commands:
+  interiobot:
+    description: Manage PvPPractice player-style NPCs.
+    usage: /interiobot help
+    aliases: [ibot]
+permissions:
+  pvppractice.admin:
+    description: Allows use of all PvPPractice commands.
+    default: op
